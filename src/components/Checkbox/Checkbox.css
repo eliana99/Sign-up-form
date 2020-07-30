@@ -1,0 +1,29 @@
+.checkbox {
+  flex-shrink: 1;
+  margin: 10px;
+  display: block;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border-radius: 0px;
+  border: 1px solid rgba(170, 170, 170, 1);
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.checkbox-toggle {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  color: rgba(170, 170, 170, 1);
+}
+
+.checkbox-input {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  width: 1px;
+  height: 1px;
+}

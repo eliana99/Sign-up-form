@@ -1,0 +1,13 @@
+.button {
+  margin: 10px;
+  font-family: Roboto;
+  font-size: 14px;
+  letter-spacing: 0px;
+  text-align: center;
+  text-transform: none;
+  color: rgba(255, 255, 255, 1);
+  padding: 10px 40px 10px 40px;
+  border-radius: 50px;
+  border: 0;
+  background-color: rgba(51, 57, 209, 1);
+}
